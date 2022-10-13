@@ -3,12 +3,19 @@
    ========================================================================== */
 
 body {
-	font-family: 'Arial', serif;
-  font-weight: 400;
+	font-family: 'Avenir', serif;
+  font-weight: 300;
   font-style: normal;
   color: #565a5c;
   padding-top: 80px;
   padding-bottom: 20px;
+}
+
+.splash {
+  background-image: url("../img/animation3.gif");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 a {
@@ -38,8 +45,8 @@ nav.navbar {
 
 nav.navbar a {
 	color: rgba(0,0,0,0.75);
-	font-family: 'Arial', sans-serif;
-  font-weight: 600; f
+	font-family: 'Avenir', sans-serif;
+  font-weight: 300; f
   font-style: normal;
   text-align: right;
 }
@@ -101,6 +108,7 @@ nav.navbar a:hover {
 
 /* Elements
 -------------------------------------------------- */
+
 div.jumbotron {
   background: #f5f5f5;
   background-size: cover;
@@ -130,11 +138,13 @@ div.jumbotron.project1 {
 	margin-top: 0;
 }
 
+
+
 /* Schrift stylen
 -------------------------------------------------- */
 h1, h2 {
-  font-family: 'Arial', sans-serif;
-  font-weight: 600;
+  font-family: 'Avenir', sans-serif;
+  font-weight: 300;
   font-style: normal;
 }
 
@@ -150,8 +160,8 @@ h2 {
 
 h3 {
 	margin: 2em 0 0.75em 0;
-	font-family: 'Arial', sans-serif;
-  font-weight: 600;
+	font-family: 'Avenir', sans-serif;
+  font-weight: 300;
   font-style: normal;
 	font-size: 2em;
 	letter-spacing: 0.05em;
@@ -190,7 +200,7 @@ img, .row {
 }
 
 .aside p {
-  font-family: 'Georgia', serif;
+  font-family: 'Avenir', serif;
   font-size: 16px;
   line-height: 1.7;
   margin: 0;
@@ -211,8 +221,8 @@ div.jumbotron p {
 	width: 80%;
 	margin-top: 40px;
 	font-size: 1.2em;
-  font-family: 'Arial', sans-serif;
-  font-weight: 400;
+  font-family: 'Avenir', sans-serif;
+  font-weight: 300;
 }
 
 .btn {
@@ -299,7 +309,7 @@ body {
 }
 
 .small{
-  font-family: 'Arial', sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-size: 14px;
   margin: 1.2em 0;
   color: #7C7C7C;
